@@ -1,0 +1,65 @@
+body{
+  background-color: black;
+  margin-top: 10px;
+  width: 700px;
+  margin-left: 450px;
+}
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  img{
+    /* margin-top: 1000px; */
+    height:300px;
+    width:500px;
+  }
+
+  #image2{
+    transform: scaleX(-1);
+  }
+
+  .slider {
+    margin-top: 170px;
+    -webkit-appearance:none;
+    width: 100%;
+    height: 10px;
+    background: #ffffff;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance:none;
+    width: 24px;
+    height: 24px;
+    background:rgb(255, 0, 0);
+    cursor: pointer;
+    /* clip-path: path("M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"); */
+    clip-path: path("M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z");
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .images img {
+    margin: 0 50px; /* Initial margin between images */
+  }
+
+  button{
+    height: 35px;
+    width: 140px;
+    margin-top: 60px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: larger;
+
+  }
